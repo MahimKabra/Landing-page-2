@@ -1,0 +1,228 @@
+@media screen and (max-width: 1150px){
+    .services{
+        padding-top: 23px;
+    }
+    .cards{
+        width: 89%;
+    }
+    .card-item{
+        width: 29%;
+    }
+    .footer{
+        padding-top: 23px;
+    }
+    .footer-box{
+        width: 33%;
+        padding: 12px 60px 10px 60px;
+        margin-bottom: 60px;
+    }
+}
+@media screen and (max-width: 1025px){
+    .container{
+        height: 359px;
+    }
+    .introduction{
+        background-size: contain;
+        align-items: center;
+    }
+    .site-title{
+        margin-top: 47px;
+    }
+    .site-name{
+        font-weight: 400;
+        font-size: 30px;
+        margin-bottom: 3px;
+        word-spacing: 1px;
+        letter-spacing: initial;
+    }
+    .site-name p{
+        display: block;
+    }
+    .site-desc{
+        font-size: 16px;
+        margin-bottom: 35px;
+        padding: 0px 23px;
+    }
+    .btn{
+        font-size: 15px;
+    }
+    .btn:hover{
+        transform: none;
+        background-color: transparent;
+        color: white;
+    }
+    .sub-head{
+        font-size: 22px
+    }
+    .why-us{
+        font-size: 16px;
+    }
+    .our-praise{
+        font-size: 16px;
+    }
+    .h1{
+        font-size: 28px;
+        padding: 21px 0px 7px 0px;
+    }
+    .cards{
+        width: 84%;
+        padding: 17px 0px 14px 0px;
+    }
+    .card-item{
+        margin-bottom: 14px;
+        width: 31%;
+    }
+    .card-item:hover{
+        transform: none;
+    }
+    .about-card{
+        margin: 12px 8px;
+    }
+    .work-title{
+        font-size: 21px;
+    }
+    .work-desc{
+        font-size: 14px;
+    }
+    .footer{
+        padding-top: 11px;
+    }
+    .footer-box{
+        width: 40%;
+        padding: 15px 20px;
+        margin-bottom: 36px;
+    }
+    .footer-box:hover{
+        transform: none;
+    }
+    .footer-box h1{
+        font-size: 25px;    
+    }
+    .footer-box label{
+        font-size: 17px;
+    }
+    .footer-box p{
+        font-size: 14px;
+    }
+    .copyright{
+        height: 59px;
+    }
+    .copyright p{
+        font-size: 12px;
+    }
+}
+@media screen and (max-width: 900px){
+    .cards{
+        width: 98%;
+    }
+    .card-item{
+        width: 29%;
+    }
+}
+@media screen and (max-width: 766px){
+    .cards{
+        width: 100%;
+        padding: 12px 0px 14px 0px;
+    }
+    .card-item{
+        width: 32%;
+    }
+    .footer{
+        flex-direction: column;
+        align-items: center;
+    }
+    .footer-box{
+        width: 90%;
+        padding: 15px 6px;
+        margin-bottom: 12px;
+    }
+    .copyright p{
+        font-size: 11px;
+    }
+    .client-head{
+        font-size: 28px;
+    }
+    .logos{
+        width: 80%;
+    }
+    .logo-items{
+        width: 21%;
+    }
+    .logo-items:hover{
+        transform: none;
+    }
+}
+@media screen and (max-width: 600px){
+    .site-desc{
+        font-size: 14px;
+    }
+    .btn{
+        font-size: 13px;
+    }
+    .why-us{
+        font-size: 14px;
+    }
+    .our-praise{
+        font-size: 14px;
+    }
+    .cards{
+        flex-direction: column;
+        width: 90%;
+    }
+    .card-item{
+        width: 100%;
+    }
+    .clients{
+        margin-top: 19px;
+        margin-bottom: 27px;
+    }
+    .client-head{
+        font-size: 27px;
+    }
+    .logo-items{
+        width: 39%;
+        margin-bottom: 7px;
+    }
+    .logos{
+        flex-wrap: wrap;
+        width: 70%;
+    }
+}
+@media screen and (max-width: 426px) {
+    .container{
+        height: 277px;
+    }
+    .introduction{
+        align-items: initial;
+    }
+    .cards{
+        width: 94%;
+    }
+    .site-desc{
+        font-size: 13px;
+    }
+    .client-head{
+        font-size: 22px;
+    }
+    .logo-items{
+        width: 46%;
+    }
+    .logos{
+        width: 85%;
+    }
+    /* .clients{
+        margin-top: 19px;
+        margin-bottom: 27px;
+    }
+    .client-head{
+        font-size: 22px;
+    }
+    .logo-items{
+        width: 46%;
+        margin-bottom: 7px;
+    }
+    .logos{
+        flex-wrap: wrap;
+        width: 85%;
+    } */
+}

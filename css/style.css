@@ -1,0 +1,199 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+/* font-family: 'Roboto', sans-serif; */
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Roboto', sans-serif;
+}
+html{
+    scroll-behavior: smooth;
+}
+body{
+    background-color:rgb(10, 10, 10);
+}
+.container{
+    height: 100vh;
+}
+.introduction{
+    background-image: url(https://images.pexels.com/photos/1089438/pexels-photo-1089438.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940);
+    background-size: cover;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.introduction a{
+    text-decoration-line: none;
+    color: white;
+}
+.site-title{
+    color: white;
+    text-align: center;
+}
+.site-name{
+    font-weight: 400;
+    font-size: 46px;
+    margin-bottom: 8px;
+    word-spacing: 4px;
+    letter-spacing: 1.2px;
+}
+.site-name p{
+    display: inline-block;
+}
+.site-desc{
+    font-size: 18px;
+    margin-bottom: 31px;
+}
+.btn{
+    color: white;
+    background-color: transparent;
+    border: 1px solid white;
+    padding: 13px;
+    border-radius: 10px;
+    font-size: 18px;
+    transition-property: background-color, color, transform;
+    transition-duration: 0.5s;
+}
+.btn:hover{
+    background-color: white;
+    color: black;
+    transform: scale(1.2, 1.2);
+}
+#services{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    color: white;
+    padding: 0px 20px;
+
+}
+.sub-head{
+    margin: 20px 0px 20px 0px;
+    font-size: 29px;
+    font-weight: 400;
+}
+.why-us{
+    margin-bottom: 12px;
+}
+.our-praise{
+    margin-bottom: 28px;
+}
+.card-container{
+    padding-bottom: 30px;
+}
+.cards{
+    display: flex;
+    width: 67%;
+    margin: auto;
+    justify-content: space-evenly;
+    padding: 12px 0px 42px 0px;
+}
+.h1{
+    color: white;
+    text-align: center;
+    font-size: 45px;
+    font-weight: 400;
+    padding: 21px 0px;
+    letter-spacing: 2px;
+}
+.card-item{
+    width: 31%;
+    background-color: white;
+    text-align: center;
+    transition-property: transform;
+    transition-duration: 0.5s;
+}
+.card-item:hover{
+    transform: scale(1.1, 1.1);
+}
+
+.card-item img{
+    width: 96%;
+    padding: 6px 0px;
+}
+.about-card{
+    margin: 27px 12px;
+}
+.work-title{
+    font-weight: 400;
+}
+.work-desc{
+    text-align: justify;
+    margin-top: 8px;
+}
+.btn-show{
+    display: block;
+    margin: auto;
+   
+}
+.footer{
+    display: flex;
+    text-align: center;
+    justify-content: space-evenly;
+    padding-top: 50px;
+}
+.footer-box{
+    width: 33%;
+    padding: 35px 70px 35px 70px;
+    background-color: lightgray;
+    border: 1px solid transparent;
+    border-radius: 34px;
+    margin-bottom: 100px;
+    transition-property: transform;
+    transition-duration: 0.5s;
+}
+.about{
+    line-height: 1.5;
+}
+.footer-box:hover{
+    transform: scale(1.1, 1.1);
+}
+.footer-box label{
+    font-size: 19px;
+    font-weight: 600;
+}
+.footer-box p{
+    margin-bottom: 10px;
+}
+.footer-box h1{
+    font-size: 40px;
+    font-weight: 600;
+    margin: 20px 0px 20px 0px;
+    /* font-size: 29px; */
+}
+.copyright{
+    display: flex;
+    justify-content: center;
+    height: 69px;
+    align-items: center;
+
+    border-top: 1px solid lightgray;
+}
+.copyright p{
+    color: white;
+}
+.clients{
+    margin-top: 60px;
+    margin-bottom: 50px;
+}
+.logos{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 72%;
+    margin: 20px auto 0px;
+}
+.logo-items{
+    width: 20%;
+    transition-property: transform;
+    transition-duration: 0.3s;
+}
+.logo-items:hover{
+    transform: scale(1.2, 1.2);
+}
+.client-head{
+    color: white;
+    text-align: center;
+    font-size: 33px;
+    font-weight: 400;
+}
